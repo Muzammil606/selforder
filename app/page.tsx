@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className='absolute bottom-[-25px] w-screen'>
           <div className='grid grid-flow-col justify-center gap-5 px-5'>
-            <div className='bg-white rounded-lg drop-shadow-md flex h-[50px] items-center justify-between px-2'>
+            <div className='bg-white rounded-lg drop-shadow-md flex h-[50px] items-center justify-center px-2'>
               <svg width="30px" height="30px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#5d5d5d" stroke-width="1.6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><circle cx="28" cy="28" r="20"></circle><line x1="56" y1="56" x2="42.14" y2="42.14"></line></g></svg>
               <input className='w-3/4 px-2' type="text" name='search' id='search' placeholder='Search Your Food' />
               <div className="bg-indigo-500 rounded-lg flex h-[40px] w-[40px] items-center justify-center">
