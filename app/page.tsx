@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='h-[80vh]'>
+      <section>
         <div className="container">
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-3 md:col-span-2">
