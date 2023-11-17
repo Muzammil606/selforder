@@ -22,3 +22,18 @@ body {
 input:focus-visible {
   outline: unset;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.categories::-webkit-scrollbar,.products::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.categories,.products {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.products {
+  box-shadow: 0px -40vh 0px 0px #cccccc;
+}
